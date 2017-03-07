@@ -1,0 +1,11 @@
+.devHeader{
+    font-family: 'Lora', serif;
+    font-size: 17px;
+    color: #272727;
+    line-height: 27px;
+}
+.navMiddle{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
