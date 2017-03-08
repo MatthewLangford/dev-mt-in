@@ -11,7 +11,7 @@ h1{
     margin-right: auto;
 }
 main{
-    width: 80%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -22,6 +22,7 @@ nav{
     padding-bottom: 2%;
     margin-bottom: 4%;
     margin-top: 2%;
+    width: 100%;
 }
 article{
     width: 35%;
@@ -29,11 +30,13 @@ article{
     float: left;
 }
 section{
+    padding-top: 1%;
     float: left;
     width: 65%;
     display: inline-block;
 }
 footer{
+    position: relative;
     clear: left;
     width: 100%;
     border-top: 1px solid  #9A9A9A;
@@ -43,20 +46,21 @@ footer{
 footer span{
     margin-left: 1%;
     margin-right: 1%;
-    margin-top: 1%;
-    font-size: 16px;
+    margin-top: 1.5%;
+    font-size: 18px;
+    font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     color: #9A9A9A;
 }
 .top-para{
-    width: 80%;
+    width: 81%;
 }
 .top-para {
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
 }
 .top-para:nth-child(1){
-    margin-bottom: -10px;
+    margin-bottom: -20px;
 }
 .devHeader{
     font-family: 'Lora', serif;
@@ -102,15 +106,43 @@ footer span{
     background-color: rgba(0, 255, 255, 0.55);
     border: 1px solid #00FFFF;
     font-size: 18px;
-    margin-bottom: 30%;
+    margin-bottom: 38%;
 }
 .img-one{
-    height: 600px;
-    width: 45vw;
-    opacity: .5;
+    height: 58vh;
+    width: 39vw;
+    opacity: .2;
     background-position: center;
     background-image: url("http://assets2.ignimgs.com/2015/06/11/darksouls1280jpg-98f75c_1280w.jpg");
     background-color: #9A9A9A;
-    -webkit-clip-path: polygon(59% 0, 0 70%, 100% 87%);
-    clip-path: polygon(59% 0, 0 70%, 100% 87%);
+    -webkit-clip-path: polygon(0 61%, 100% 72%, 53% 0);
+    clip-path: polygon(0 68%, 98% 83%, 50% 0);
+}
+.img-one-div{
+    margin-left: 5%;
+    height: 58vh;
+    width: 39vw;
+    background-color: #9A9A9A;
+    -webkit-clip-path: polygon(0 61%, 100% 72%, 53% 0);
+    clip-path: polygon(0 68%, 98% 83%, 50% 0);
+}
+.img-two-div{
+    height: 56vh;
+    width: 41vw;
+    background-color: #00FFE9;
+    -webkit-clip-path: polygon(0 41%, 100% 30%, 58% 100%);
+    clip-path: polygon(0 34%, 92% 20%, 55% 100%);
+    position: absolute;
+    bottom: 19vh;
+    right: 18vw;;
+}
+.img-two{
+    height: 56vh;
+    width: 41vw;
+    opacity: .7;
+    background-image: url("http://assets2.ignimgs.com/2015/06/11/darksouls1280jpg-98f75c_1280w.jpg");
+    background-position:center;
+    -webkit-clip-path: polygon(0 41%, 100% 30%, 58% 100%);
+    clip-path: polygon(0 34%, 92% 20%, 55% 100%);
+    position: absolute;
 }
