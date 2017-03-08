@@ -3,25 +3,114 @@ body{
     height: 100%;
     padding: 0;
     margin: 0;
+    font-family: 'Lora', serif;
+}
+h1{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
 }
 main{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #9A9A9A;
+    padding-bottom: 2%;
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+article{
+    width: 35%;
+    display: inline-block;
+    float: left;
+}
+section{
+    float: left;
+    width: 65%;
+    display: inline-block;
+}
+footer{
+    clear: left;
+    width: 100%;
+    border-top: 1px solid  #9A9A9A;
+    display: flex;
+    justify-content: space-between;
+}
+footer span{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #9A9A9A;
+}
+.top-para{
+    width: 80%;
+}
+.top-para {
+    text-align: center;
+    font-size: 24px;
+}
+.top-para:nth-child(1){
+    margin-bottom: -10px;
+}
 .devHeader{
     font-family: 'Lora', serif;
-    font-size: 17px;
+    font-size: 25px;
     color: #272727;
 }
 .navMiddle{
-    width: 30%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 10%;
+    display: inline-block;
 }
 .navLeft{
-    float: left;
+    margin-top: 5px;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
 }
 .navRight{
-    float: right;
+    display: inline-block;
+}
+.greenDiv{
+    color: #00FFE9;
+}
+::-webkit-input-placeholder{
+    font-size: 24px;
+    padding-left: 10px;
+}
+.inputs{
+    font-family: 'Lora', serif;
+    width: 80%;
+    height: 4vh;
+    font-size: 24px;
+    margin-bottom: 2vh;
+}
+.bio{
+    width: 80%;
+    padding-bottom: 18vh;
+    font-size: 20px;
+}
+.save-button{
+    color: #9A9A9A;
+    height: 3.5vh;
+    width: 81%;
+    background-color: rgba(0, 255, 255, 0.55);
+    border: 1px solid #00FFFF;
+    font-size: 18px;
+    margin-bottom: 30%;
+}
+.img-one{
+    height: 600px;
+    width: 45vw;
+    opacity: .5;
+    background-position: center;
+    background-image: url("http://assets2.ignimgs.com/2015/06/11/darksouls1280jpg-98f75c_1280w.jpg");
+    background-color: #9A9A9A;
+    -webkit-clip-path: polygon(59% 0, 0 70%, 100% 87%);
+    clip-path: polygon(59% 0, 0 70%, 100% 87%);
 }

@@ -5,29 +5,38 @@
 	<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1"> 
 	<title>DevMountain</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="styles.css">
-
 </head>
 <body ng-controller="mainCtrl">
 <main>
-	<header>
-		<h1 class="top">Initial View No Data</h1>
-	</header>
+	<!--<header>-->
+		<!--<h1 class="top">Initial View No Data</h1>-->
+	<!--</header>-->
 	<nav>
-		<div class="navLeft"> buttonhere</div><div class="devHeader navMiddle">DevMountain</div><div class="navRight">dropdown here</div>
+		<img src="images/Icons/Search.svg" class="navLeft"><div class="devHeader  navMiddle">DevMountain</div><img src="images/Icons/Ham.svg" class="navRight">
 	</nav>
 	<article>
-		<p>Welcome to <span>DevMountain</span>Social</p>
-		<p>Add Some Info So Friends Can Find You</p>
-		<input class="inputs" ng-model='name' type="text" placeholder="FullName">
-		<input class="inputs" ng-model='tagline' type="text" placeholder="Tagline">
-		<input class="inputs" ng-model='image' type="text" placeholder="Profile Image Url">
-		<input class="inputs" ng-model='bio' type="text" placeholder="Bio">
-		<button>Save Changes</button>
+
+		<p class="top-para"><strong >Welcome to <span class="greenDiv">DevMountain</span> Social</strong></p>
+		<p class="top-para"><strong>Add Some Info So Friends Can Find You</strong></p>
+
+		<input class="inputs" ng-model='name' type="text" placeholder="Full Name"><br/>
+		<input class="inputs" ng-model='tagline' type="text" placeholder="Tagline"><br/>
+		<input class="inputs" ng-model='image' type="text" placeholder="Profile Image Url"><br/>
+		<input class="inputs bio" ng-model='bio' type="text" placeholder="Bio"><br/>
+		<button class="save-button">Save Changes</button><br/>
 	</article>
-	<section>image goes here</section>
+	<section>
+		<div class="img-one">
+
+		</div>
+		<div class="img-two">
+
+		</div>
+	</section>
 	<footer>
-		<span>View Friends<span>Find Friends</span><span>Update Profile</span></span>
+		<span><a>View Friends</a></span><span><a>Find Friends</a></span><span><a>Update Profile</a></span>
 	</footer>
 	</main>
 <script src="js/angular.js"></script>
