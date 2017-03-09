@@ -1,17 +1,19 @@
+<nav>
+    <a ui-sref="land"><img src="images/Icons/Search.svg" class="navLeft"></a><div class="devHeader  navMiddle">DevMountain</div><a ui-sref="home"><img src="images/Icons/Ham.svg" class="navRight"></a>
+</nav>
 <article>
-    <div>
-        {{$scope.name}}
-        {{$scope.tagline}}
+    <div class="landing-top">
+        <p class="landing-name">{{profile.name[0]}}</p>
+        <p class="landing-last-name">{{profile.name[1]}}</p>
+        <h3 class="landing-tag">{{profile.tagline}}</h3>
+        <p class="landing-bio">{{profile.bio}}</p>
     </div>
-
-
-    <p></p>
 </article>
 <section>
     <div class="img-one-div">
         <img  class="img-one" src="http://assets2.ignimgs.com/2015/06/11/darksouls1280jpg-98f75c_1280w.jpg">
     </div>
     <div class="img-two-div">
-        <img class="img-two" src="https://s.aolcdn.com/hss/storage/midas/2a5d19e87f450db51322047641b4df0f/203890485/e9386bce455b00ad4380af046e247f1a.jpg">
+        <img class="img-two" ng-src="{{profile.image}}">
     </div>
 </section>

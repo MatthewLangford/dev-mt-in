@@ -8,16 +8,17 @@ angular.module('myApp', ['ui.router'])
         .state('home',{
             templateUrl: 'views/home.html',
             url: '/home',
-            controller: 'mainCtrl'
+            controller: 'homeController'
         })
         .state('land',{
             templateUrl: 'views/landingView.html',
             url: '/land',
-            controller: 'mainCtrl'
+            controller: 'landingController'
         })
         .state('friendsView',{
             templateUrl: 'views/friendsView.html',
-            url: '/friends'
+            url: '/friends',
+            controller: 'landingController'
         })
         .state('friendProfile',{
             templateUrl: 'views/friendProfileView.html',

@@ -19,15 +19,16 @@ nav{
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #9A9A9A;
-    padding-bottom: 2%;
+    padding-bottom: .5%;
     margin-bottom: 4%;
-    margin-top: 2%;
+    margin-top: 1%;
     width: 100%;
 }
 article{
-    width: 35%;
+    width: 31%;
     display: inline-block;
     float: left;
+    margin-left: 4%;
 }
 section{
     padding-top: 1%;
@@ -36,22 +37,31 @@ section{
     display: inline-block;
 }
 footer{
-    position: relative;
+    position: absolute;
     clear: left;
-    width: 100%;
+    left: 18%;
+    width: 61%;
     border-top: 1px solid  #9A9A9A;
     display: flex;
     justify-content: space-between;
+    bottom: 5%;
 }
 footer span{
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
     margin-top: 1.5%;
     font-size: 18px;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     color: #9A9A9A;
 }
+footer a{
+    text-decoration: none;
+    color: #9A9A9A;
+}
+
+/*Home View
+*/
 .top-para{
     width: 81%;
 }
@@ -70,15 +80,20 @@ footer span{
 .navMiddle{
     width: 10%;
     display: inline-block;
+    margin-top: 1.5%;
 }
 .navLeft{
-    margin-top: 5px;
     display: inline-block;
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
 }
 .navRight{
     display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+nav a{
+   margin: 2% 2% 0 2%;
 }
 .greenDiv{
     color: #00FFE9;
@@ -98,6 +113,8 @@ footer span{
     width: 80%;
     padding-bottom: 18vh;
     font-size: 20px;
+    display: table;
+    overflow: scroll;
 }
 .save-button{
     color: #9A9A9A;
@@ -106,7 +123,7 @@ footer span{
     background-color: rgba(0, 255, 255, 0.55);
     border: 1px solid #00FFFF;
     font-size: 18px;
-    margin-bottom: 32%;
+   // margin-bottom: 32%;
 }
 .img-one{
     height: 58vh;
@@ -125,6 +142,7 @@ footer span{
     background-color: #9A9A9A;
     -webkit-clip-path: polygon(0 61%, 100% 72%, 53% 0);
     clip-path: polygon(0 68%, 98% 83%, 50% 0);
+
 }
 .img-two-div{
     height: 56vh;
@@ -139,10 +157,48 @@ footer span{
 .img-two{
     height: 56vh;
     width: 41vw;
-    opacity: .7;
+    opacity: .6;
     background-image: url("http://assets2.ignimgs.com/2015/06/11/darksouls1280jpg-98f75c_1280w.jpg");
     background-position:center;
     -webkit-clip-path: polygon(0 41%, 100% 30%, 58% 100%);
     clip-path: polygon(0 34%, 92% 20%, 55% 100%);
     position: absolute;
+}
+
+/* Landing View
+*/
+.landing-top{
+    width: 100%;
+    margin-left: 7%;
+    margin-top: -15%;
+}
+.landing-name{
+    width: 55%;
+    font-size: 70px;
+    font-family: 'Lora', serif;
+    color: #272727;
+    text-align: left;
+    margin-bottom: 0%;
+}
+.landing-last-name{
+    font-size: 70px;
+    font-family: 'Lora', serif;
+    color: #272727;
+    margin-top: 0px;
+    margin-left: 16%;
+}
+.landing-tag{
+    font-size: 25px;
+    font-family: 'Lora', serif;
+    color: #000000;
+    text-align: left;
+    margin-top: -10%;
+    width: 80%;
+}
+.landing-bio{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #000000;
+    text-align: justify;
+    width: 75%;
 }
