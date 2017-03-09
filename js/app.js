@@ -7,11 +7,13 @@ angular.module('myApp', ['ui.router'])
     $stateProvider
         .state('home',{
             templateUrl: 'views/home.html',
-            url: '/home'
+            url: '/home',
+            controller: 'mainCtrl'
         })
         .state('land',{
             templateUrl: 'views/landingView.html',
-            url: '/land'
+            url: '/land',
+            controller: 'mainCtrl'
         })
         .state('friendsView',{
             templateUrl: 'views/friendsView.html',
