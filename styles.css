@@ -157,7 +157,7 @@ nav a{
 .img-two{
     height: 56vh;
     width: 41vw;
-    opacity: .6;
+    opacity: .7;
     background-image: url("http://assets2.ignimgs.com/2015/06/11/darksouls1280jpg-98f75c_1280w.jpg");
     background-position:center;
     -webkit-clip-path: polygon(0 41%, 100% 30%, 58% 100%);
@@ -200,5 +200,5 @@ nav a{
     font-size: 18px;
     color: #000000;
     text-align: justify;
-    width: 75%;
+    width: 85%;
 }
