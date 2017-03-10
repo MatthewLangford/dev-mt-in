@@ -11,7 +11,7 @@ angular.module('myApp').service('dataService', function ($window) {
     this.pullProfile = function (name) {
        profile = JSON.parse($window.localStorage[name]);
         return profile;
-    }
+    };
 
     this.getCurrent = function () {
         return currentProfile;
