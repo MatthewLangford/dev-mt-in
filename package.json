@@ -1,0 +1,26 @@
+{
+  "name": "dev-mt-in",
+  "version": "1.0.0",
+  "description": "__A note to students and employers__",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewLangford/dev-mt-in.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthewLangford/dev-mt-in/issues"
+  },
+  "homepage": "https://github.com/MatthewLangford/dev-mt-in#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-session": "^1.15.1",
+    "gulp": "^3.9.1"
+  }
+}

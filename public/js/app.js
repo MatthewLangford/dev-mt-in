@@ -1,4 +1,4 @@
-angular.module('myApp', ['ui.router'])
+angular.module('friends', ['ui.router'])
 
 .config(function ($urlRouterProvider, $stateProvider) {
 
@@ -6,30 +6,30 @@ angular.module('myApp', ['ui.router'])
 
     $stateProvider
         .state('home',{
-            templateUrl: 'views/home.html',
+            templateUrl: 'home/home.html',
             url: '/home',
             controller: 'homeController'
         })
         .state('land',{
-            templateUrl: 'views/landingView.html',
+            templateUrl: 'landing/landingView.html',
             url: '/land',
             controller: 'landingController'
         })
         .state('friendsView',{
-            templateUrl: 'views/friendsView.html',
+            templateUrl: 'friends/friendsView.html',
             url: '/friends',
             controller: 'landingController'
         })
         .state('friendProfile',{
-            templateUrl: 'views/friendProfileView.html',
+            templateUrl: 'friends/friendProfileView.html',
             url: '/friendPro'
         })
         .state('search',{
-            templateUrl: 'views/searchView.html',
+            templateUrl: 'search/searchView.html',
             url: 'search'
         })
         .state('update',{
-            templateUrl: 'views/updateView.html',
+            templateUrl: 'update/updateView.html',
             url: 'update'
         })
 
