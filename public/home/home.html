@@ -1,5 +1,5 @@
 <nav>
-    <a ui-sref="land"><img src="images/Icons/Search.svg" class="navLeft"></a><div class="devHeader  navMiddle">DevMountain</div><a ui-sref="home"><img src="images/Icons/Ham.svg" class="navRight"></a>
+    <a ui-sref="land"><img src="../images/Icons/Search.svg" class="navLeft"></a><div class="devHeader  navMiddle">DevMountain</div><a ui-sref="home"><img src="images/Icons/Ham.svg" class="navRight"></a>
 </nav>
 <article>
 
@@ -10,7 +10,7 @@
     <input class="inputs" ng-model='tagline' type="text" placeholder="Tagline"><br/>
     <input class="inputs" ng-model='image' type="text" placeholder="Profile Image Url"><br/>
     <textarea class="inputs bio" ng-model='bio' placeholder="Bio"></textarea><br/>
-    <button ui-sref="land" class="save-button" ng-disabled="!name || !tagline || !bio" ng-click="storeProfile(name, {'name': name.split(' '), 'tagline': tagline, 'image': image, 'bio': bio})">Save Changes</button><br/>
+    <button ui-sref="land" class="save-button" ng-disabled="!name || !tagline || !bio" ng-click="storeProfile({'name': name.split(' '), 'tagline': tagline, 'image': image, 'bio': bio})">Save Changes</button><br/>
 </article>
 <section>
     <div class="img-one-div">
