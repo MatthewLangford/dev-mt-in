@@ -3,10 +3,10 @@
 </nav>
 <article>
     <div class="landing-top">
-        <p class="landing-name">{{profile.name[0]}}</p>
-        <p class="landing-last-name">{{profile.name[1]}}</p>
-        <h3 class="landing-tag">{{profile.tagline}}</h3>
-        <p class="landing-bio">{{profile.bio}}</p>
+        <p class="landing-name">{{currentProfile.name[0]}}</p>
+        <p class="landing-last-name">{{currentProfile.name[1]}}</p>
+        <h3 class="landing-tag">{{currentProfile.tagline}}</h3>
+        <p class="landing-bio">{{currentProfile.bio}}</p>
     </div>
 </article>
 <section>
@@ -14,6 +14,6 @@
         <img  class="img-one" src="http://assets2.ignimgs.com/2015/06/11/darksouls1280jpg-98f75c_1280w.jpg">
     </div>
     <div class="img-two-div">
-        <img class="img-two" ng-src="{{profile.image}}">
+        <img class="img-two" ng-src="{{currentProfile.image}}">
     </div>
 </section>

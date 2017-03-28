@@ -2,16 +2,19 @@ angular.module('friends').service('landingService', function ($http) {
 
 
 
-    this.storeProfile = function (user) {
+    this.storeProfile = (user) => {
         return $http.post('/users', {user: user});
     };
 
-    this.pullProfile = function (name) {
-       profile = JSON.parse($window.localStorage[name]);
-        return profile;
+    this.getCurrentUser = () =>{
+            return $http.get('/users/current');
     };
 
-    this.getCurrent = function () {
-        return currentProfile;
+    this.pullProfile = (id) => {
+        return $http.get('/users/' + id);
+    };
+
+    this.getFriends = () => {
+        return $http.get('/users');
     }
 });
